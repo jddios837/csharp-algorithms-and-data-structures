@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-BigONotation-01", "1-BigO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-problem-solving-approach", "2-problem-solving-approach\2-problem-solving-approach.csproj", "{AAE56A66-DEF6-40A4-9314-6A3E5C3A7786}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99-CodeWars", "99-CodeWars", "{6ABD8233-DB51-4F28-850F-A80FB99C2573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Pyramid-Array", "CodeWars\1-Pyramid-Array\1-Pyramid-Array.csproj", "{C29E0FD7-3900-41CB-8A36-AE519E6A408F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Problem-Solving-Patterns", "2-Problem-Solving-Patterns", "{034E2343-942E-4C47-9622-E1D13D0DE98B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frecuency-Counter-Pattern-Same", "2-Problem-Solving-Patterns\1-Frecuency-Counter-Pattern-Same\1-Frecuency-Counter-Pattern-Same.csproj", "{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,17 @@ Global
 		{AAE56A66-DEF6-40A4-9314-6A3E5C3A7786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAE56A66-DEF6-40A4-9314-6A3E5C3A7786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAE56A66-DEF6-40A4-9314-6A3E5C3A7786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29E0FD7-3900-41CB-8A36-AE519E6A408F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29E0FD7-3900-41CB-8A36-AE519E6A408F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29E0FD7-3900-41CB-8A36-AE519E6A408F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29E0FD7-3900-41CB-8A36-AE519E6A408F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C29E0FD7-3900-41CB-8A36-AE519E6A408F} = {6ABD8233-DB51-4F28-850F-A80FB99C2573}
+		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC} = {034E2343-942E-4C47-9622-E1D13D0DE98B}
 	EndGlobalSection
 EndGlobal

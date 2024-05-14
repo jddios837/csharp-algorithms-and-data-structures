@@ -47,21 +47,18 @@ class Program
             // if char is character or number and not exist in the dictionary
             bool checkLetters = (stringToCount[i] >= 65 && stringToCount[i] <= 90) ||
                                 (stringToCount[i] >= 97 && stringToCount[i] <= 122);
-            if (!counter.ContainsKey(stringToCount[i]) && checkLetters)
+            if (stringToCount[i] > 0 && checkLetters)
             {
                 // add it and counter = 1
                 counter.Add(stringToCount[i], 0);
             }
-            
             // if char the character exist in the dictionary 
-            if (counter.ContainsKey(stringToCount[i]) && checkLetters)
+            else
             {
                 counter[stringToCount[i]]++;
             }
-            // add it in the dictionary
-            // return the dictionary
         }
-
+        // return the dictionary
         return counter;
     }
 }
