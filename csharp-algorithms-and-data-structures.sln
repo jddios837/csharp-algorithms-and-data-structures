@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Problem-Solving-Patterns"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Frecuency-Counter-Pattern-Same", "2-Problem-Solving-Patterns\1-Frecuency-Counter-Pattern-Same\1-Frecuency-Counter-Pattern-Same.csproj", "{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-FCP-Anagrams", "2-Problem-Solving-Patterns\2-FCP-Anagrams\2-FCP-Anagrams.csproj", "{20B8C610-BEC8-415D-BA71-4B0BE980A79A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +36,14 @@ Global
 		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B8C610-BEC8-415D-BA71-4B0BE980A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B8C610-BEC8-415D-BA71-4B0BE980A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B8C610-BEC8-415D-BA71-4B0BE980A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B8C610-BEC8-415D-BA71-4B0BE980A79A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C29E0FD7-3900-41CB-8A36-AE519E6A408F} = {6ABD8233-DB51-4F28-850F-A80FB99C2573}
 		{F8CEF6AA-697D-4DF5-9CC8-D9610C1749CC} = {034E2343-942E-4C47-9622-E1D13D0DE98B}
+		{20B8C610-BEC8-415D-BA71-4B0BE980A79A} = {034E2343-942E-4C47-9622-E1D13D0DE98B}
 	EndGlobalSection
 EndGlobal
